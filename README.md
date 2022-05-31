@@ -1,4 +1,4 @@
-- 👋 Hi, I’m WickTheThird
+- 👋 Hi, WickTheThird here!
 - DCU COMSCI Student
 - Know WebDev, Python and learning Java
 - You will see here little projects and assignments done during my time at DCU
