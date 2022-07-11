@@ -1,6 +1,6 @@
 - 👋 Hi, WickTheThird here!
 - DCU COMSCI Student
-- Know WebDev, Python and learning C#
+- WebDev, Python, C#
 - You will see here little projects and assignments done during my time at DCU
 
 <!---
