@@ -1,6 +1,5 @@
 - 👋 Hi, WickTheThird here!
-- DCU COMSCI Student
-- WebDev, Python, C#
+- DCU COMSCI Student, Yr 2
 - You will see here little projects and assignments done during my time at DCU
 
 <!---
