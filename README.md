@@ -2,7 +2,8 @@
 # WickTheThird
 
 - DCU Student
-- `Languages`: Python, C/C++, Java
+- `Languages`: Python, C/C++, Java, JavaScript
+- I have also used Django Rest, Node, React and very briefly SQL;
 
 ## About
 
