@@ -4,6 +4,7 @@
 - DCU Student
 - `Languages`: Python, C/C++, Java, JavaScript
 - I have also used Django Rest, Node, React and very briefly SQL;
+- I have worked with Swift, basic Unity and know the basics of C#, though no projects done with it yet (I have a flappy bird that I worked on with Unity);
 
 ## About
 
