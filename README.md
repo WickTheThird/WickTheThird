@@ -8,6 +8,7 @@
 
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=WickTheThird)](https://github.com/anuraghazra/github-readme-stats)
 
+
 ## About
 
 I am a 2nd Year ComSci Student. Here I will post some project I have done during my time at DCU, both school related and personal.
