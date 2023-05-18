@@ -1,5 +1,5 @@
 
-<center>
+<div style="text-align: center">
 # WickTheThird
 
 - DCU Student
@@ -15,4 +15,4 @@ I am a 2nd Year ComSci Student. Here I will post some project I have done during
 
 [![Wick's GitHub stats](https://github-readme-stats.vercel.app/api?username=WickTheThird&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
-</center>
+</div>
