@@ -1,6 +1,6 @@
 
 <div style="text-align: center">
-# WickTheThird
+## WickTheThird
 
 - DCU Student
 - `Languages`: Python, C/C++, Java, JavaScript
