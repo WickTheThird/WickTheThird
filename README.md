@@ -1,3 +1,5 @@
+
+<center>
 # WickTheThird
 
 - DCU Student
@@ -5,14 +7,12 @@
 - I have also used Django Rest, Node, React and very briefly SQL;
 - I have worked with Swift, basic Unity and know the basics of C#, though no projects done with it yet (I have a flappy bird that I worked on with Unity);
 
-<center>
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=WickTheThird&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-</center>
-  
+ 
 ## About
 
 I am a 2nd Year ComSci Student. Here I will post some project I have done during my time at DCU, both school related and personal.
 
-<center>
 [![Wick's GitHub stats](https://github-readme-stats.vercel.app/api?username=WickTheThird&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 </center>
