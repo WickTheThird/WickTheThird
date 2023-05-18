@@ -13,8 +13,8 @@
 
 I am a 2nd Year ComSci Student. Here I will post some project I have done during my time at DCU, both school related and personal.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=WickTheThird)](https://github.com/anuraghazra/github-readme-stats)
+[![Wick's GitHub stats](https://github-readme-stats.vercel.app/api?username=WickTheThird)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Other Stats :)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=WickTheThird)](https://github.com/anuraghazra/github-readme-stats)
+[![Wick's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=WickTheThird)](https://github.com/anuraghazra/github-readme-stats)
