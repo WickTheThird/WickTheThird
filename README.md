@@ -75,5 +75,18 @@ Experienced in full-stack development, backend engineering, and software systems
 
 ---
 
+### **Featured Projects**
+
+[![Repo: Cloud Service](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=cloud-service&theme=radical)](https://github.com/WickTheThird/cloud-service)  
+[![Repo: Amberscan](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=amberscan&theme=radical)](https://github.com/WickTheThird/amberscan)
+
+---
+
 ### 🌱 **About Me**
 A passionate software engineer committed to leveraging technology for meaningful projects. My experience spans full-stack development, game design, and data-driven solutions. I'm eager to learn, contribute to impactful projects, and collaborate with innovative teams.
+
+![Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filip-bumbu-410741262/)
