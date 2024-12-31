@@ -77,7 +77,7 @@ Experienced in full-stack development, backend engineering, and software systems
 
 ### **Featured Projects**
 
-[![Repo: Cloud Service](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=cloud-service&theme=radical)](https://github.com/WickTheThird/CAL-Compiler)
+[![Repo: Cloud Service](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler&theme=radical)](https://github.com/WickTheThird/CAL-Compiler)
 [![Repo: Amberscan](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=amberscan&theme=radical)](https://github.com/WickTheThird/amberscan)
 
 ---
