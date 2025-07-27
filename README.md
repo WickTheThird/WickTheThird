@@ -1,6 +1,6 @@
 ## WickTheThird
 
-### 👨‍💻 Software Engineer | 4th-Year Computer Science Student at Dublin City University  
+### 👨‍💻 Jr Software Engineer | Telnyx
 Experienced in full-stack development, backend engineering, and software systems design, with a strong foundation in computer science principles. Passionate about building efficient, scalable applications and solving complex problems.
 
 ---
@@ -48,6 +48,9 @@ Experienced in full-stack development, backend engineering, and software systems
 ---
 
 ### 💼 **Work Experience**
+
+#### **Jr Software Engineer** at Telnyx *(Jan 2025 - Present)*
+
 #### **Software Engineer** at Druid Software Ltd *(Mar 2024 – Sept 2024)*
 - Enhanced a telecommunications platform using Django and shell scripting for automation.
 - Debugged backend systems with GDB, Valgrind, and PDB.
