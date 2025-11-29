@@ -49,7 +49,9 @@ Experienced in full-stack development, backend engineering, and software systems
 
 ### 💼 **Work Experience**
 
-#### **Jr Software Engineer** at Telnyx *(Jan 2025 - Present)*
+#### **Software Engineer** at Telnyx *(Jan 2025 - Present)*
+I develop backend messaging microservices at Telnyx using Python, FastAPI, RabbitMQ, PostgreSQL, SQLAlchemy, Alembic, and Docker, focusing on scalable distributed systems.
+
 
 #### **Software Engineer** at Druid Software Ltd *(Mar 2024 – Sept 2024)*
 - Enhanced a telecommunications platform using Django and shell scripting for automation.
