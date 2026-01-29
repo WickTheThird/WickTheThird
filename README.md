@@ -83,7 +83,7 @@ I develop backend messaging microservices at Telnyx using Python, FastAPI, Rabbi
 ### **Featured Projects**
 
 [![Repo: Cloud Service](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler&theme=radical)](https://github.com/WickTheThird/CAL-Compiler)
-[![Repo: Amberscan](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=amberscan&theme=radical)](https://github.com/WickTheThird/amberscan)
+[![Repo: Amberscan](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=amberscan&theme=radical)](https://github.com/WickTheThird/omnisense)
 
 ---
 
