@@ -1,97 +1,155 @@
-## WickTheThird
+# WickTheThird
 
-### 👨‍💻 Jr Software Engineer | Telnyx
-Experienced in full-stack development, backend engineering, and software systems design, with a strong foundation in computer science principles. Passionate about building efficient, scalable applications and solving complex problems.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=WickTheThird&style=flat-square" />
+  <img src="https://img.shields.io/github/followers/WickTheThird?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/WickTheThird?style=flat-square" />
+</p>
 
----
+## Software Engineer | Backend & Distributed Systems | Telnyx
 
-### 🛠️ **Technical Skills**
-- **Programming Languages**: Python, C, C++, Java, Kotlin, JavaScript, TypeScript, Bash
-- **Web Development**: Proficient in Django, Express.js, React, Svelte, Angular, Next.js
-- **Mobile Development**: Experience with Android Studio (Java/Kotlin) and Swift
-- **Game Development**: Pygame, LibGDX, OpenGL, Unity (C# basics)
-- **DevOps & Debugging**: CI/CD pipelines, Pytest, GDB, Valgrind, Callgrind, PDB
-- **Tools & Platforms**: Git, Vim, VSCode, Helix
+Backend software engineer working on high-throughput messaging systems and distributed microservices.  
+My work focuses on Python-based backend services, event-driven architectures, and production reliability.
 
----
+I care about clear system design, correctness under load, and understanding how systems behave in real production environments.
 
-### 🌟 **Key Projects**
-#### 🔐 **Cloud Service**
-- Self-hosted cloud platform akin to Google Drive with secure file storage and editing capabilities.
-- **Tech Stack**: Svelte (frontend), Django (backend).
-
-#### 🧾 **Receipt OCR - Amberscan**
-- Android application that scans receipts/invoices, extracts data, and exports financial records as CSV.
-- **Tech Stack**: Kotlin, Python.
-
-#### 🦺 **Omnisense** *(4th-Year Project)*
-- Assisted visually impaired users with navigation through wearable sensors and GPS integration.
-- **Tech Stack**: C (microcontroller programming), Kotlin (Android).
-
-#### 🖥️ **MyShell**
-- Custom shell with multiprocessing, batch mode execution, and I/O redirection.
-- **Tech Stack**: C.
-
-#### 🎮 **Dungeoneer**
-- A personal game project, transitioning from Pygame to LibGDX for enhanced features and performance.
-
-#### 🌐 **WebRTC Application**
-- Real-time communication platform for video, audio, and messaging.
-- **Tech Stack**: WebRTC, JavaScript.
+**Portfolio and technical write-ups:**  
+https://bumbuindustries.com/docs/
 
 ---
 
-### 🎓 **Education**
-- **Dublin City University**, Dublin, Ireland  
-  BSc in Computer Science + Software Engineering (Expected: Mar 2025)
+## Technical Focus
+
+### Backend & Distributed Systems
+- Python (FastAPI)
+- PostgreSQL, Redis
+- RabbitMQ, Kafka
+- SQLAlchemy, Alembic
+- REST APIs, async and concurrent systems
+
+### Infrastructure & Reliability
+- Docker and CI/CD pipelines
+- Prometheus, Grafana, alerting and on-call workflows
+- Debugging production issues and performance bottlenecks
+
+### Languages
+- Python (primary)
+- C, C++
+- Java, Kotlin
+- Bash
+
+### Tools
+- Git
+- Linux-first development
+- VS Code, Helix, Vim
 
 ---
 
-### 💼 **Work Experience**
+## Experience
 
-#### **Software Engineer** at Telnyx *(Jan 2025 - Present)*
-I develop backend messaging microservices at Telnyx using Python, FastAPI, RabbitMQ, PostgreSQL, SQLAlchemy, Alembic, and Docker, focusing on scalable distributed systems.
+### Software Engineer — Telnyx  
+*Jan 2025 – Present*
 
+- Develop and maintain backend messaging microservices serving production traffic.
+- Work with FastAPI, RabbitMQ, PostgreSQL, SQLAlchemy, Alembic, and Docker.
+- Contribute to distributed systems with strong observability and reliability requirements.
+- Participate in on-call rotations, incident response, and postmortems.
+- Collaborate closely with product, infrastructure, and backend platform teams.
 
-#### **Software Engineer** at Druid Software Ltd *(Mar 2024 – Sept 2024)*
-- Enhanced a telecommunications platform using Django and shell scripting for automation.
-- Debugged backend systems with GDB, Valgrind, and PDB.
-- Implemented unit testing and contributed to CI/CD pipeline optimization.
+### Software Engineer — Druid Software Ltd  
+*Mar 2024 – Sept 2024*
 
-#### **Software Engineer** at Tributum *(Mar 2023 – Sept 2023)*
-- Built backend systems in Django with REST APIs and React-based frontends.
-- Leveraged AI-driven solutions for financial data management.
+- Worked on telecom backend systems using Django and shell-based automation.
+- Debugged backend and system-level issues using GDB, Valgrind, and PDB.
+- Improved unit testing practices and CI/CD workflows.
 
-#### **Full-Stack Developer** at AA Construction *(Mar 2022 – Sept 2022)*
-- Developed real-time WebRTC-based communication and interactive 3D environments.
+### Software Engineer — Tributum  
+*Mar 2023 – Sept 2023*
 
----
+- Built Django-based backend services and REST APIs.
+- Developed internal tools and React-based frontends.
+- Focused on maintainable systems and automation for financial workflows.
 
-### 🏆 **Achievements**
-- Designed a compiler for a custom programming language, *Cal*.
-- Implemented machine learning models like linear regression and random forest for real-world challenges.
-- Contributed to innovative projects in construction tech and accessibility tools for visually impaired users.
+### Full-Stack Developer — AA Construction  
+*Mar 2022 – Sept 2022*
 
----
-
-### 📊 **GitHub Stats**
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WickTheThird&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)  
-[![Wick's GitHub stats](https://github-readme-stats.vercel.app/api?username=WickTheThird&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-### **Featured Projects**
-
-[![Repo: Cloud Service](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler&theme=radical)](https://github.com/WickTheThird/CAL-Compiler)
-[![Repo: Omnisense](https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=Omnisense&theme=radical)](https://github.com/WickTheThird/omnisense)
+- Built real-time communication features using WebRTC.
+- Worked on interactive web and 3D components.
 
 ---
 
-### 🌱 **About Me**
-A passionate software engineer committed to leveraging technology for meaningful projects. My experience spans full-stack development, game design, and data-driven solutions. I'm eager to learn, contribute to impactful projects, and collaborate with innovative teams.
+## Selected Projects
 
-![Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <a href="https://github.com/WickTheThird/CAL-Compiler">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler&theme=transparent" />
+  </a>
+  <a href="https://github.com/WickTheThird/Omnisense">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=Omnisense&theme=transparent" />
+  </a>
+</p>
+
+**Cloud Storage Platform**  
+Self-hosted cloud service for secure file storage and collaborative editing.  
+Tech: Django, Svelte
+
+**Amberscan (Receipt OCR)**  
+Android application for scanning receipts and exporting structured financial data.  
+Tech: Kotlin, Python
+
+**Omnisense**  
+Wearable navigation assistance system for visually impaired users using sensors and GPS.  
+Tech: C (microcontrollers), Kotlin (Android)
+
+**MyShell**  
+Custom UNIX-like shell supporting multiprocessing, batch execution, and I/O redirection.  
+Tech: C
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filip-bumbu-410741262/)
+## Side Projects & Ongoing Work
+
+Creator of **Tributum** (tributum.ro), a frontend-focused platform built for an accounting business, emphasizing clean UI, maintainability, and integration with backend services.
+
+In parallel, I’m actively working on several personal projects, some of which are available in my public repositories:
+
+- A game designed to help remote workers interact and collaborate in a more informal, social setting.
+- A custom terminal user interface (TUI) shell written in Rust, with a focus on usability and extensibility. Development updates will be published as the project evolves.
+- A programming language project exploring interpreter design, with an emphasis on flexible execution models and potential AI-assisted interpretation.
+- Additional backend systems and experiments, with more work planned to be released publicly under **bumbuindustries**.
+
+These projects primarily serve as a space to explore systems design, tooling, and ideas outside of my day-to-day work.
+
+---
+
+## Education
+
+**Dublin City University**, Ireland  
+BSc Computer Science & Software Engineering
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=WickTheThird&show_icons=true&hide_title=true&theme=transparent" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WickTheThird&theme=transparent" />
+</p>
+
+---
+
+## About
+
+I’m interested in backend platform engineering, messaging infrastructure, and distributed systems.  
+I prefer systems that are simple, observable, and resilient rather than overly abstract.
+
+---
+
+## Connect
+
+<a href="https://www.linkedin.com/in/filip-bumbu-410741262/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
