@@ -82,10 +82,10 @@ https://bumbuindustries.com/docs/
 
 <p align="center">
   <a href="https://github.com/WickTheThird/CAL-Compiler">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler&theme=transparent" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler" />
   </a>
   <a href="https://github.com/WickTheThird/Omnisense">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=Omnisense&theme=transparent" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=Omnisense" />
   </a>
 </p>
 
