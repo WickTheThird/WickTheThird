@@ -13,7 +13,6 @@ My work focuses on Python-based backend services, event-driven architectures, an
 
 I care about clear system design, correctness under load, and understanding how systems behave in real production environments.
 
-**Portfolio and technical write-ups:**  
 https://bumbuindustries.com/
 
 ---
