@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
-  <title id="title">Filip's desk at night</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
+  <title id="title">Wick's desk at night</title>
   <desc id="description">A calm animated pixel-art workspace with a monitor, a server, and a starry window.</desc>
 
   <defs>
@@ -30,10 +30,15 @@
     .code-b { animation: code 3.2s .7s steps(2, end) infinite; }
     .shooting { animation: shooting 7s ease-in infinite; }
     .led { animation: led 2.2s steps(2, end) infinite; }
+    .select-a { animation: select 6s steps(2, end) infinite; }
+    .select-b { animation: select 6s 1.5s steps(2, end) infinite; }
+    .select-c { animation: select 6s 3s steps(2, end) infinite; }
+    .select-d { animation: select 6s 4.5s steps(2, end) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
     @keyframes twinkle { 50% { opacity: .25; } }
     @keyframes code { 50% { opacity: .45; } }
     @keyframes led { 0%, 45% { opacity: 1; } 46%, 65% { opacity: .18; } 66%, 100% { opacity: 1; } }
+    @keyframes select { 0%, 24% { opacity: 1; } 25%, 100% { opacity: .2; } }
     @keyframes shooting {
       0%, 72% { transform: translate(0, 0); opacity: 0; }
       74% { opacity: 1; }
@@ -45,21 +50,21 @@
     }
   </style>
 
-  <rect width="1200" height="430" rx="22" fill="url(#room)"/>
-  <rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+  <rect width="1200" height="1040" rx="22" fill="url(#room)"/>
+  <rect x="1" y="1" width="1198" height="1038" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
 
   <!-- small, plain introduction -->
   <g transform="translate(70 105)">
     <text class="pixel" fill="#a8b0c7" font-size="16">hello there, i'm</text>
-    <text class="pixel" y="66" fill="#f2f4fb" font-size="52" font-weight="700" letter-spacing="-2">FILIP.</text>
+    <text class="pixel" y="66" fill="#f2f4fb" font-size="52" font-weight="700" letter-spacing="-2">WICK.</text>
     <rect y="94" width="48" height="4" fill="#7dd3fc"/>
     <text class="pixel" y="132" fill="#c4cad9" font-size="18">backend engineer</text>
     <text class="pixel" y="164" fill="#8791aa" font-size="16">I like building things, taking them apart,</text>
     <text class="pixel" y="190" fill="#8791aa" font-size="16">and finding out what happens in between.</text>
     <g transform="translate(0 235)">
-      <text class="pixel" fill="#64708d" font-size="14">filip@wick:~$</text>
-      <text class="pixel" x="126" fill="#b9f6d2" font-size="14">still curious</text>
-      <rect class="blink" x="232" y="-14" width="9" height="18" fill="#b9f6d2"/>
+      <text class="pixel" fill="#64708d" font-size="14">wick@home:~$</text>
+      <text class="pixel" x="118" fill="#b9f6d2" font-size="14">still curious</text>
+      <rect class="blink" x="224" y="-14" width="9" height="18" fill="#b9f6d2"/>
     </g>
   </g>
 
@@ -135,4 +140,84 @@
     <path d="M8 27h21M8 35h17M44 27h21M44 35h17" stroke="#9b998f" stroke-width="2"/>
   </g>
   <path d="M1028 303c19 0 12 36 31 36" fill="none" stroke="#161925" stroke-width="5"/>
+
+  <!-- about window -->
+  <g transform="translate(70 492)">
+    <rect width="1060" height="166" fill="#111521" stroke="#353b50" stroke-width="2"/>
+    <rect x="2" y="2" width="1056" height="34" fill="#282d3e"/>
+    <rect x="16" y="15" width="7" height="7" fill="#e57983"/>
+    <rect x="31" y="15" width="7" height="7" fill="#dfc06c"/>
+    <rect x="46" y="15" width="7" height="7" fill="#79cf9d"/>
+    <text class="pixel" x="78" y="24" fill="#8d96ad" font-size="13">about.txt</text>
+
+    <text class="pixel" x="28" y="76" fill="#7dd3fc" font-size="15">01</text>
+    <text class="pixel" x="72" y="76" fill="#e6e9f2" font-size="19">I build backend systems at Telnyx and follow side projects wherever they lead.</text>
+    <text class="pixel" x="28" y="111" fill="#7dd3fc" font-size="15">02</text>
+    <text class="pixel" x="72" y="111" fill="#aeb6ca" font-size="18">Compilers, embedded devices, realtime media, odd little tools — the stack comes later.</text>
+    <text class="pixel" x="28" y="146" fill="#7dd3fc" font-size="15">03</text>
+    <text class="pixel" x="72" y="146" fill="#b9f6d2" font-size="18">The interesting part is finding out how it works.</text>
+    <rect class="blink" x="560" y="129" width="9" height="21" fill="#b9f6d2"/>
+  </g>
+
+  <!-- compact toolbox -->
+  <g transform="translate(70 695)">
+    <text class="pixel" fill="#7dd3fc" font-size="17">~/things-i-use</text>
+    <path d="M0 20h1060" stroke="#394056" stroke-width="2"/>
+
+    <g transform="translate(0 48)">
+      <rect width="337" height="102" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <text class="pixel" x="20" y="30" fill="#69748f" font-size="13">MOST DAYS</text>
+      <text class="pixel" x="20" y="64" fill="#edf0f7" font-size="17">Python · FastAPI · Postgres</text>
+      <text class="pixel" x="20" y="87" fill="#a9b1c6" font-size="15">Redis · RabbitMQ · Docker</text>
+    </g>
+    <g transform="translate(361 48)">
+      <rect width="337" height="102" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <text class="pixel" x="20" y="30" fill="#69748f" font-size="13">WHEN NEEDED</text>
+      <text class="pixel" x="20" y="64" fill="#edf0f7" font-size="17">C · C++ · Kotlin · Swift</text>
+      <text class="pixel" x="20" y="87" fill="#a9b1c6" font-size="15">WebRTC · JavaScript · Linux</text>
+    </g>
+    <g transform="translate(723 48)">
+      <rect width="337" height="102" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <text class="pixel" x="20" y="30" fill="#69748f" font-size="13">ALWAYS CURIOUS ABOUT</text>
+      <text class="pixel" x="20" y="64" fill="#edf0f7" font-size="17">distributed systems · languages</text>
+      <text class="pixel" x="20" y="87" fill="#a9b1c6" font-size="15">realtime things · tiny computers</text>
+    </g>
+  </g>
+
+  <!-- project strip -->
+  <g transform="translate(70 884)">
+    <text class="pixel" fill="#7dd3fc" font-size="17">~/projects</text>
+    <path d="M0 20h1060" stroke="#394056" stroke-width="2"/>
+
+    <g transform="translate(0 41)">
+      <rect width="250" height="62" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <rect class="select-a" x="14" y="16" width="8" height="30" fill="#7dd3fc"/>
+      <text class="pixel" x="38" y="27" fill="#e9ecf5" font-size="15">CAL COMPILER</text>
+      <text class="pixel" x="38" y="47" fill="#707b94" font-size="12">language + compiler</text>
+    </g>
+    <g transform="translate(270 41)">
+      <rect width="250" height="62" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <rect class="select-b" x="14" y="16" width="8" height="30" fill="#b9f6d2"/>
+      <text class="pixel" x="38" y="27" fill="#e9ecf5" font-size="15">OMNISENSE</text>
+      <text class="pixel" x="38" y="47" fill="#707b94" font-size="12">wearable navigation</text>
+    </g>
+    <g transform="translate(540 41)">
+      <rect width="250" height="62" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <rect class="select-c" x="14" y="16" width="8" height="30" fill="#a994e8"/>
+      <text class="pixel" x="38" y="27" fill="#e9ecf5" font-size="15">HASHIDE</text>
+      <text class="pixel" x="38" y="47" fill="#707b94" font-size="12">browser-based IDE</text>
+    </g>
+    <g transform="translate(810 41)">
+      <rect width="250" height="62" fill="#171b28" stroke="#353b50" stroke-width="2"/>
+      <rect class="select-d" x="14" y="16" width="8" height="30" fill="#dfc06c"/>
+      <text class="pixel" x="38" y="27" fill="#e9ecf5" font-size="15">TRIBUTUM</text>
+      <text class="pixel" x="38" y="47" fill="#707b94" font-size="12">accounting software</text>
+    </g>
+  </g>
+
+  <!-- footer quote -->
+  <g transform="translate(70 1010)">
+    <text class="pixel" fill="#8b94aa" font-size="13">“Programs must be written for people to read, and only incidentally for machines to execute.”</text>
+    <text class="pixel" x="1060" text-anchor="end" fill="#657089" font-size="12">— SICP</text>
+  </g>
 </svg>
