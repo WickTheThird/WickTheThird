@@ -1,154 +1,88 @@
-# WickTheThird
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=WickTheThird&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/WickTheThird?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/WickTheThird?style=flat-square" />
-</p>
-
-## Software Engineer | Backend & Distributed Systems | Telnyx
-
-Backend software engineer working on high-throughput messaging systems and distributed microservices.  
-My work focuses on Python-based backend services, event-driven architectures, and production reliability.
-
-I care about clear system design, correctness under load, and understanding how systems behave in real production environments.
-
-https://bumbuindustries.com/  (doing some major changes atm, so temporarly unavailable)
-
----
-
-## Technical Focus
-
-### Backend & Distributed Systems
-- Python (FastAPI)
-- PostgreSQL, Redis
-- RabbitMQ, Kafka
-- SQLAlchemy, Alembic
-- REST APIs, async and concurrent systems
-
-### Infrastructure & Reliability
-- Docker and CI/CD pipelines
-- Prometheus, Grafana, alerting and on-call workflows
-- Debugging production issues and performance bottlenecks
-
-### Languages
-- Python (primary)
-- C, C++
-- Java, Kotlin
-- Bash
-
-### Tools
-- Git
-- Linux-first development
-- VS Code, Helix, Vim
-
----
-
-## Experience
-
-### Software Engineer — Telnyx  
-*Jan 2025 – Present*
-
-- Develop and maintain backend messaging microservices serving production traffic.
-- Work with FastAPI, RabbitMQ, PostgreSQL, SQLAlchemy, Alembic, and Docker.
-- Contribute to distributed systems with strong observability and reliability requirements.
-- Participate in on-call rotations, incident response, and postmortems.
-- Collaborate closely with product, infrastructure, and backend platform teams.
-
-### Software Engineer — Druid Software Ltd  
-*Mar 2024 – Sept 2024*
-
-- Worked on telecom backend systems using Django and shell-based automation.
-- Debugged backend and system-level issues using GDB, Valgrind, and PDB.
-- Improved unit testing practices and CI/CD workflows.
-
-### Software Engineer — Tributum  
-*Mar 2023 – Sept 2023*
-
-- Built Django-based backend services and REST APIs.
-- Developed internal tools and React-based frontends.
-- Focused on maintainable systems and automation for financial workflows.
-
-### Full-Stack Developer — AA Construction  
-*Mar 2022 – Sept 2022*
-
-- Built real-time communication features using WebRTC.
-- Worked on interactive web and 3D components.
-
----
-
-## Selected Projects
-
-<p align="center">
-  <a href="https://github.com/WickTheThird/CAL-Compiler">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=CAL-Compiler" />
-  </a>
-  <a href="https://github.com/WickTheThird/Omnisense">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WickTheThird&repo=Omnisense" />
-  </a>
-</p>
-
-**Cloud Storage Platform**  
-Self-hosted cloud service for secure file storage and collaborative editing.  
-Tech: Django, Svelte
-
-**Amberscan (Receipt OCR)**  
-Android application for scanning receipts and exporting structured financial data.  
-Tech: Kotlin, Python
-
-**Omnisense**  
-Wearable navigation assistance system for visually impaired users using sensors and GPS.  
-Tech: C (microcontrollers), Kotlin (Android)
-
-**MyShell**  
-Custom UNIX-like shell supporting multiprocessing, batch execution, and I/O redirection.  
-Tech: C
-
----
-
-## Side Projects & Ongoing Work
-
-Creator of **Tributum** (tributum.ro), a frontend-focused platform built for an accounting business, emphasizing clean UI, maintainability, and integration with backend services.
-
-In parallel, I’m actively working on several personal projects, some of which are available in my public repositories:
-
-- A game designed to help remote workers interact and collaborate in a more informal, social setting.
-- A custom terminal user interface (TUI) shell written in Rust, with a focus on usability and extensibility. Development updates will be published as the project evolves.
-- A programming language project exploring interpreter design, with an emphasis on flexible execution models and potential AI-assisted interpretation.
-- Additional backend systems and experiments, with more work planned to be released publicly under **bumbuindustries**.
-
-These projects primarily serve as a space to explore systems design, tooling, and ideas outside of my day-to-day work.
-
----
-
-## Education
-
-**Dublin City University**, Ireland  
-BSc Computer Science & Software Engineering
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WickTheThird&show_icons=true&hide_title=true&theme=transparent" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WickTheThird&theme=transparent" />
-</p>
-
----
-
-## About
-
-I’m interested in backend platform engineering, messaging infrastructure, and distributed systems.  
-I prefer systems that are simple, observable, and resilient rather than overly abstract.
-
----
-
-## Connect
-
-<a href="https://www.linkedin.com/in/filip-bumbu-410741262/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+<a href="#the-workbench">
+  <img src="./assets/system-lab.svg" alt="Enter Filip Bumbu's animated systems lab" width="100%" />
 </a>
+
+<p align="center">
+  Backend engineer building distributed systems, realtime tools, and software that remains understandable under load.
+</p>
+
+<p align="center">
+  <a href="https://github.com/WickTheThird/Nogur"><strong>Explore Nogur</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/filip-bumbu-410741262/"><strong>Say hello</strong></a>
+</p>
+
+<br />
+
+## The workbench
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>NOW</sub><br /><br />
+      <strong>Messaging at scale</strong><br />
+      Building and operating backend services at Telnyx, where reliability is part of the feature.
+    </td>
+    <td width="33%" valign="top">
+      <sub>BUILDING</sub><br /><br />
+      <strong><a href="https://github.com/WickTheThird/Nogur">Nogur ↗</a></strong><br />
+      A native system for controlling and extending your Mac from another computer—phones are next.
+    </td>
+    <td width="33%" valign="top">
+      <sub>EXPLORING</sub><br /><br />
+      <strong>Systems with edges</strong><br />
+      Realtime media, language tooling, embedded devices, and better ways for machines to cooperate.
+    </td>
+  </tr>
+</table>
+
+<br />
+
+```text
+incoming idea
+    │
+    ├── make the boundaries explicit
+    ├── keep the hot path observable
+    ├── test what breaks under pressure
+    └── ship the smallest honest system
+```
+
+<details>
+  <summary><strong>Open the systems drawer</strong></summary>
+  <br />
+
+  I spend most of my time around Python, FastAPI, PostgreSQL, Redis, RabbitMQ, Kafka, SQLAlchemy, and Docker. I reach for C, C++, Kotlin, Bash, or Swift when the problem moves closer to the machine—or onto a different one entirely.
+
+  The recurring theme is less about a particular stack and more about behavior: concurrency, failure modes, observability, and systems that people can still reason about six months later.
+</details>
+
+<details>
+  <summary><strong>Open the field notes</strong></summary>
+  <br />
+
+  - **Telnyx · Software Engineer** — production messaging services, event-driven systems, incident response, and reliability.
+  - **Druid Software · Software Engineer** — telecom backends, systems debugging, testing, and delivery automation.
+  - **Tributum · Software Engineer** — financial workflows, Django services, internal tools, and React interfaces.
+  - **AA Construction · Full-Stack Developer** — realtime communication with WebRTC and interactive 3D experiences.
+
+  BSc in Computer Science & Software Engineering from Dublin City University.
+</details>
+
+<details>
+  <summary><strong>Open the project archive</strong></summary>
+  <br />
+
+  | Project | What lives inside |
+  |:--|:--|
+  | **[CAL Compiler](https://github.com/WickTheThird/CAL-Compiler)** | A programming-language project exploring compilers and execution models. |
+  | **[Omnisense](https://github.com/WickTheThird/Omnisense)** | Wearable navigation assistance using microcontrollers, sensors, GPS, and Android. |
+  | **MyShell** | A UNIX-like shell with multiprocessing, batch execution, and I/O redirection. |
+  | **Amberscan** | Android receipt capture with OCR and structured financial export. |
+  | **Cloud Storage Platform** | Self-hosted storage and collaborative editing with Django and Svelte. |
+</details>
+
+<br />
+
+<p align="center">
+  <sub>Clear boundaries. Useful signals. Fewer mysterious boxes.</sub>
+</p>
