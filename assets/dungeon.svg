@@ -22,7 +22,7 @@
 <rect width="1200" height="620" rx="18" fill="url(#fog)"/>
 <rect x="2" y="2" width="1196" height="616" rx="16" fill="none" stroke="#50465b" stroke-width="3"/>
 <text class="px" x="50" y="53" fill="#ece8ef" font-size="30" font-weight="700">nothing special.</text>
-<text class="px" x="1150" y="51" text-anchor="end" fill="#625b6b" font-size="13">MOVE 0000</text>
+<text class="px" x="1150" y="51" text-anchor="end" fill="#625b6b" font-size="13">MOVE 0001</text>
 <rect x="40" y="95" width="734" height="398" fill="#080a10" stroke="#3b3542" stroke-width="3"/>
 <rect x="50" y="105" width="42" height="42" fill="#302a37" stroke="#17141c" stroke-width="2"/>
 <path d="M55 117h32M55 136h32" stroke="#403847" stroke-width="2"/>
@@ -358,7 +358,7 @@
 <g class="flame" transform="translate(155 378)"><path d="M0 4c-9-8-5-17 1-24 8 10 8 17-1 24z" fill="#f2a85d"/><path d="M0 1c-4-4-2-9 1-13 4 5 3 9-1 13z" fill="#ffe69a"/></g>
 <rect x="657" y="380" width="4" height="14" fill="#6b4a37"/>
 <g class="flame" transform="translate(659 378)"><path d="M0 4c-9-8-5-17 1-24 8 10 8 17-1 24z" fill="#f2a85d"/><path d="M0 1c-4-4-2-9 1-13 4 5 3 9-1 13z" fill="#ffe69a"/></g>
-<g class="wick" transform="translate(407 336)">
+<g class="wick" transform="translate(407 294)">
 <ellipse cx="0" cy="16" rx="14" ry="5" fill="#000" opacity=".35"/>
 <path d="M-12 15-9-7 0-16 9-7 12 15z" fill="#d8b65c"/>
 <rect x="-7" y="-7" width="14" height="12" fill="#17151b"/>

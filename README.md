@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/dungeon.svg?v=0" alt="Wick wandering through a collaborative dungeon" width="100%" />
+  <img src="./assets/dungeon.svg?v=1" alt="Wick wandering through a collaborative dungeon" width="100%" />
 </p>
 
 <p align="center">
