@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title description" shape-rendering="crispEdges">
+  <title id="title">Filip's desk at night</title>
+  <desc id="description">A calm animated pixel-art workspace with a monitor, a server, and a starry window.</desc>
+
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171a27"/>
+      <stop offset="1" stop-color="#20243a"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#11162c"/>
+      <stop offset="1" stop-color="#222b52"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="moonGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .pixel { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .blink { animation: blink 1.1s steps(2, end) infinite; }
+    .twinkle-a { animation: twinkle 2.7s steps(2, end) infinite; }
+    .twinkle-b { animation: twinkle 3.8s steps(2, end) infinite reverse; }
+    .code-a { animation: code 3.2s steps(2, end) infinite; }
+    .code-b { animation: code 3.2s .7s steps(2, end) infinite; }
+    .shooting { animation: shooting 7s ease-in infinite; }
+    .led { animation: led 2.2s steps(2, end) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes twinkle { 50% { opacity: .25; } }
+    @keyframes code { 50% { opacity: .45; } }
+    @keyframes led { 0%, 45% { opacity: 1; } 46%, 65% { opacity: .18; } 66%, 100% { opacity: 1; } }
+    @keyframes shooting {
+      0%, 72% { transform: translate(0, 0); opacity: 0; }
+      74% { opacity: 1; }
+      82% { transform: translate(-130px, 84px); opacity: 0; }
+      100% { transform: translate(-130px, 84px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
+    }
+  </style>
+
+  <rect width="1200" height="430" rx="22" fill="url(#room)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+
+  <!-- small, plain introduction -->
+  <g transform="translate(70 105)">
+    <text class="pixel" fill="#a8b0c7" font-size="16">hello there, i'm</text>
+    <text class="pixel" y="66" fill="#f2f4fb" font-size="52" font-weight="700" letter-spacing="-2">FILIP.</text>
+    <rect y="94" width="48" height="4" fill="#7dd3fc"/>
+    <text class="pixel" y="132" fill="#c4cad9" font-size="18">backend engineer</text>
+    <text class="pixel" y="164" fill="#8791aa" font-size="16">I like building things, taking them apart,</text>
+    <text class="pixel" y="190" fill="#8791aa" font-size="16">and finding out what happens in between.</text>
+    <g transform="translate(0 235)">
+      <text class="pixel" fill="#64708d" font-size="14">filip@wick:~$</text>
+      <text class="pixel" x="126" fill="#b9f6d2" font-size="14">still curious</text>
+      <rect class="blink" x="232" y="-14" width="9" height="18" fill="#b9f6d2"/>
+    </g>
+  </g>
+
+  <!-- window -->
+  <g transform="translate(650 34)">
+    <rect width="478" height="234" fill="#0b0d16"/>
+    <rect x="12" y="12" width="454" height="210" fill="url(#sky)"/>
+    <path d="M239 12v210M12 117h454" stroke="#090b12" stroke-width="12"/>
+
+    <g fill="#d9e5ff">
+      <rect class="twinkle-a" x="48" y="42" width="4" height="4"/>
+      <rect class="twinkle-b" x="114" y="83" width="3" height="3"/>
+      <rect class="twinkle-a" x="181" y="35" width="3" height="3"/>
+      <rect class="twinkle-b" x="286" y="52" width="4" height="4"/>
+      <rect class="twinkle-a" x="334" y="93" width="3" height="3"/>
+      <rect class="twinkle-b" x="419" y="40" width="3" height="3"/>
+      <rect class="twinkle-a" x="392" y="164" width="4" height="4"/>
+      <rect class="twinkle-b" x="278" y="180" width="3" height="3"/>
+      <rect class="twinkle-a" x="158" y="169" width="4" height="4"/>
+      <rect class="twinkle-b" x="70" y="154" width="3" height="3"/>
+    </g>
+
+    <circle cx="391" cy="74" r="28" fill="#f3e8b5" opacity=".18" filter="url(#moonGlow)"/>
+    <circle cx="391" cy="74" r="20" fill="#f5edcc"/>
+    <rect x="382" y="63" width="5" height="5" fill="#d8d0b5"/>
+    <rect x="397" y="76" width="4" height="4" fill="#d8d0b5"/>
+
+    <g class="shooting" transform="translate(350 30)">
+      <path d="M0 0 42-25" stroke="#d8efff" stroke-width="3"/>
+      <rect x="-3" y="-1" width="7" height="7" fill="#ffffff"/>
+    </g>
+
+    <path d="M12 201 78 153l54 33 63-48 64 55 69-71 54 50 84-62v112H12z" fill="#141a31"/>
+    <path d="m12 217 81-52 53 30 65-36 59 42 73-57 58 42 65-46v82H12z" fill="#0d1224"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="596" y="339" width="570" height="20" fill="#745649"/>
+  <rect x="606" y="359" width="18" height="71" fill="#493936"/>
+  <rect x="1135" y="359" width="18" height="71" fill="#493936"/>
+  <rect x="596" y="359" width="570" height="7" fill="#332b2d" opacity=".8"/>
+
+  <!-- server -->
+  <g transform="translate(635 251)">
+    <rect width="80" height="88" fill="#30364a"/>
+    <rect x="8" y="10" width="64" height="18" fill="#171b28"/>
+    <rect x="8" y="35" width="64" height="18" fill="#171b28"/>
+    <rect x="8" y="60" width="64" height="18" fill="#171b28"/>
+    <rect class="led" x="58" y="16" width="6" height="6" fill="#8ee6b2"/>
+    <rect class="led" x="58" y="41" width="6" height="6" fill="#7dd3fc" style="animation-delay:-.7s"/>
+    <rect class="led" x="58" y="66" width="6" height="6" fill="#8ee6b2" style="animation-delay:-1.4s"/>
+    <path d="M16 18h27M16 43h32M16 68h22" stroke="#4b5570" stroke-width="4"/>
+  </g>
+
+  <!-- monitor -->
+  <g transform="translate(778 181)">
+    <rect width="252" height="142" fill="#40475c"/>
+    <rect x="10" y="10" width="232" height="116" fill="url(#screen)"/>
+    <rect x="113" y="142" width="26" height="16" fill="#343a4d"/>
+    <rect x="84" y="158" width="84" height="9" fill="#343a4d"/>
+    <rect x="26" y="28" width="52" height="6" fill="#7dd3fc"/>
+    <rect class="code-a" x="26" y="48" width="124" height="6" fill="#7884a3"/>
+    <rect x="42" y="66" width="82" height="6" fill="#b9f6d2"/>
+    <rect class="code-b" x="42" y="84" width="147" height="6" fill="#8e79d6"/>
+    <rect x="26" y="102" width="104" height="6" fill="#7884a3"/>
+    <rect class="blink" x="136" y="99" width="7" height="12" fill="#b9f6d2"/>
+  </g>
+
+  <!-- notebook and cable -->
+  <g transform="translate(1052 300)">
+    <path d="M0 17h73v39H0z" fill="#dad7ca"/>
+    <path d="M36 17v39" stroke="#b8b5aa" stroke-width="2"/>
+    <path d="M8 27h21M8 35h17M44 27h21M44 35h17" stroke="#9b998f" stroke-width="2"/>
+  </g>
+  <path d="M1028 303c19 0 12 36 31 36" fill="none" stroke="#161925" stroke-width="5"/>
+</svg>
